@@ -1,0 +1,35 @@
+{
+    "name": "thekeymaster/coding-challenge",
+    "description": "Solution for coding challenge",
+    "type": "project",
+    "require": {
+        "symfony/console": "^6.0",
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thekeymaster\\CodingChallenge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thekeymaster\\CodingChallenge\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.1"
+        }
+    },
+    "authors": [
+        {
+            "name": "TheKeymaster",
+            "email": "dominik@brader.co.at"
+        }
+    ]
+}
